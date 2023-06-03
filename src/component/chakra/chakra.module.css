@@ -1,19 +1,18 @@
+.chakra{
+    display: flex;
+    justify-content: space-between;
+}
+
 .container{
-    text-align: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url("https://lh3.googleusercontent.com/pw/AJFCJaVDVQCFd8XxAZgfwJLELv6UxtXz1yCAjt9rAJ66Cn6yedPCpipDdZZDmDy0uxI6YPy9fsnHkWHt8hovtcWNtDVxyw5kGexgceOAFqGAXBPUfys5PpLvseZGkxlf-ajAkT72FJoFs1hsAYEZtmWTOPu2YqQhPUtl4Kg-taSn2ijvvGkUggWFk3fR2qSkUBCLzmZvUC93nGsWiKdgcbDYTRWlVjMqPsuODXbDgHgoWW3Gl97jTGmgaMonKH8Va5GyDdGI2otLUR_F5bkL6TqKkO9WEe4fHdalfR5XXR7nEgX-H9nyc7DuccEIjCbt19p3d9I5EBJPfg4c_5gEQJ0vbHKxZk7OtuBpxagk0gLoPpQpYbGsNXXhP409azQstArefRiufNlM7Hj457hzknaHX2KDrcqRb148Ct36Q1G1btkjsbB3NNP9THF29C-CISVRZ_f3fqLDQPAGEjpAa3u24gk-tYMmcrs8i6rQZ4o1Angc1NrRhHXoL07bWUYWIZUd8KdUBnCJ1b20ELtYzKiGWDdJeO9sK1t6LGhBfvGNSpOwEu8gkq-08BIb3hKhdjfp4pVmCVUOwaW9DdLUoYUIu5nqCWfcJwuUllXfjV8tBjYERlGzz0BYCGEZPkGzWL0nJ7bUksofM9uevwLJyayOgUmbIIsuxwGUZbDnetZ7kUr4rmAnPm2zVB6uMP4AgIPXSmigYmDAsQikwGg99t_EynB2tIsyGhGs_lauurE8VU1zp52mVFUozS9XrHPOf2RlWDIw3Xcpa6XElgKvKhoWVZ75ZDJk69EZo-_PMuf3eahCDBc_taJJPyPNhO7B9YUak_1Y7NxUssvrNkceQ19XAxvVvzal93fPYhfEV4onDL_OmGjSXhaEdUsI3QKP2RD5F8SFCflo15qErzsX69O7dQ=w500-h499-s-no?authuser=0");
+    background-size: cover;
 }
 .chakralogo{
     animation: App-logo-spin infinite 20s linear;
-    height: 500px;
-    width: 500px;
-    pointer-events: none;
-    border-radius: 50%;
-    text-align: center;
-    position: relative;
-}
-
-.sun{
-    position: relative;
-    border-radius: 50%;
 }
 
 @keyframes App-logo-spin {

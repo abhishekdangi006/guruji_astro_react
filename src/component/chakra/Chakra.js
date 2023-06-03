@@ -2,11 +2,14 @@ import classes from './chakra.module.css';
 
 const Chakra = () => {
     return(
-        <div className={classes.container}>
-        <img className={classes.chakralogo} src='https://lh3.googleusercontent.com/pw/AJFCJaUv2a_xaXwwrc8DH0qUK7roEcmiGE145wghQHChffuOPlAhZMxNJwsE-GPg9NQGk0D6XTA3opRg_7nkhv106C7rP8L_v8aHJ3ChCdMmWNrX7GIPenZEtnWOsDzPiFMSEB1p1wccR4e4I58JNnGGdDG2SBYRGKPEaG3HPkSUibM0hNFB06laPUtppILcTye4VCCrQHKLvpNm5-bcL1x-m6h6lnxMlCcMMQPA_X9vQSpCkFGj7Tso1RUxuhKmfaIJYt6vpZQNjLzZh4rgqH2h9X3LTuO2o_DWFy6hbfGd4IK0i0ld8GCM6bRh4wFAh9oj-vy4V7UJhXE2cgROKTYjqbMGJWXM3e3EuRNtv49nqq_nI2nI-sHkX3T5el7iqk867PW1_9ChdOs9u0gMD8dpiQ44HFe68Ccz2I8RKQ91EqNX2WFfgb3_6vmHd5aXr8n1fxu8XL16OrHmCPKbniuwDyuQfXhehOGGP37gJptOQNpSIcFzn1Uh-P5SWG9RfDoVmOhvluOBut1H1b0Qekc8g02zu0AhRzLozTPFNnQh3_E_4vP8LFBKYJON7JjDlMqE576uWxM1srsXF8-RSUp-uuYMOI-QHT6U94y4nXY7QGhWE7P54g4hZTccgr_Jrvo4eGyXpMQIkXVzF5cBZvUDK3fFljXegKxVYJvByaz8jQGaGRtQ4chN61hkfAiSALP2A8YVqeeywVS-bUs8Z_B0Q9y7J1FOldzO1xyc3vsxdckFavFMT0kOPbbgsBVPD7Dx6QW_bod4KRbv07JgYbOC_cG2clq-goITIHrRqy5sD1WoF3ONtF4ZNkC5JHb57815P5rGF_hbktdfInjLi81qlLCVkXJvfFs19FkVNvqo1aUYVw5c4_nFB7h6lGtC4H5Zx762YYGgyowjc68_i1bcbQ=w752-h751-s-no?authuser=0' alt='chakra'/>
-        
-        <img className={classes.sun} src='https://lh3.googleusercontent.com/pw/AJFCJaXhr-QW2_wfqiBGmZXP9lwc4wptUUeTmP0Ld0zW2Nfc61pVxvnB2tUwMOOKLheVX-h2oX_ITCwjxaLA7jm3VNw7luOLUXfZ_6kZO49pB003_K4a94flCOknVjJCTNuYJjXNpbHJ86gxEQfjw77sv2OxS8uUAdfYio3jVSAqT-HhLEbGQDZ12Qem0-DoSmQHETuPtBtBDd0ETgkiHHuc3txTYJ_eHHhLcIuLbO91S3dogfT5TIRKcUNh_-5sr7RXEQY7eczZQS7YtJdwHQnOS0xw3RWH0oaNDbxGhL0FIrNeiyRUhHZ_3Y1Yxppw5J0cUwkpIscCOxmrABo0gIY_2wztWn6rgU4bwpm761EDVJfL43Sn985NIce804PCh7bcmFk1BQ0dvhNjqiY7e1rSbvRJxShyBdQY36APHYG0v2tFTK0qGCjBkwVSrQZhiAJMd2HTaI319XVL2kTqkwl5h5kwqaSTxq_i2a3yWmyioKZ_XGjGyeTn0hInFb4ipCRj-kfEkJXow_KPVi2hyitzCHAc46-Ahx4ZzXGXwzte3NsU5DbvNB-TRQrrH7nlfPf9nVtuVe4-ke3t3iOzrGIzh-5IwmkzBPVk_W2kSxNjTpsV27Se3lkF37KgpaAcVJbAnOlr1fiZDm-r4yQek4SyEvX1MIqkRG91-MNEuclW9uzFEtCr3n0xLyJqzBK-sQtWbHuVWXNqAJTt2nC4_t1A66qSuvh5xUAddmN3wa7ZuDUi7sgKv5-ZdYH-0AGCmrshuiC1CWN2uz5RSrElITO6p0bPdrNSyNpgzFkK-Q2bkcQOs2dGkT74L5S5swAJQGZMjbRfC03SGTZdvVjLObsfojgd1CR7vVT3Q24k539KNG3P9c2t-4wRdH10Wk718hOP9gcQvbVlovH34EOilDpnbw=w327-h328-no?authuser=0' alt='sun'/>
+        <div className={classes.chakra}>
+            <div></div>
+            <div className={classes.container}>
+            <img className={classes.chakralogo} src='https://lh3.googleusercontent.com/pw/AJFCJaVhEInsZsryToyPb5Rwlf6JtekxfVhRgYvdnYGSFQHwkW0ZOVF2WzW3WRrpOHtDRz6x6FBQ1KlJIrVU2V1hw2REvGJQivMlIF6WdGfbfzL8Zm7ZOyBE2pfbtUgr_44kB1hs2MMxQXHg2dfW4-o_TGaydXiMtPn08Hg5i_2KhazA1Z-SyTYzJHhUtSG3SCgorO0c9Yuhl8E9Zdcyx9VuU7TAFVQjZgTupVPJcY0lbYeanFtkRkcFWZS1c4cAuK_qc6o7iwr-_k4_RQ0BEWIF_bSIWnlQ9Vjo8pTMujCcemAPP_j0hINPgCoVkNJowIC91fOtQZ5PeKi1ssPBd9A9VEJmOk9SJ3rABAp1sf8H-DzW4gHRbqPrWlHj2RGoB3a169J_1OmrZZJOcH9UzN63bOtQk5J14mK5cmKg5ZRPKqZpIALHFl9kRT16s_iUCxbwa62evZAXOBY8-XJg_K36yy5BlaQrCo6bDLMrM8Ld2LZosQM4jp5CQT3FcKDhKfBiEMhRr_M3P2DL9OglliX3RYc8OyOzxq3AJGUroLbqORh4ADduAIdMXu62kYGXL3LCyXuLFble5TLU69qF6ktVkOaajMwEjQV4P5VoEpNBEn410CxAqbBmPhpo1S7_CAwV9ZBmoyqbaglkcYoItSx-1RxKGanXGihS4Fc8G9jVVml5yd6wCPs2eM4IugqJlGCyiBdNJmfcLN4Qq7tZzBcDGal7R9PKeixXB7RCWYeVJq5ar44M5XaSeWssObDoTGqEQTiGeKSd_hyF-3Mqi_5QIXcw4Gr2IDeuMzxQ7zimqJX_LZe01Pg7Hckizew33BoNrO3ZA3wi5-Kx2gY96qLfYtLXBlPtKglunT-YxMVsIfAoMwecqRx67seaUJCu_7Jo0o5nT005EvjyE-KO8MeGGg=w500-h499-s-no?authuser=0' alt='chakra'/>
+            </div>
+            <div></div>
         </div>
+        
     )
 }
 
