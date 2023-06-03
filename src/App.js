@@ -1,13 +1,14 @@
 import React from 'react';
 import Navbar from './component/navbar/Navbar';
 import Chakra from './component/chakra/Chakra';
+import { problems, problems2} from './data/problem';
 
 class App extends React.Component{
   constructor(){
     super();
     this.state = {
-      name : '', 
-      input : false,
+      problems: problems,
+      problems2: problems2
     }
   }
 
@@ -15,7 +16,7 @@ class App extends React.Component{
     return (
       <div className="App">
         <Navbar/>
-        <Chakra/>
+        <Chakra problems={this.state.problems} problems2={this.state.problems2}/>
       </div>
     );
   }

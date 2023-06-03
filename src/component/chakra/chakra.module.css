@@ -1,3 +1,20 @@
+.title{
+    margin: 20px 0;
+    height: 41px;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 128%;
+    color: #D97122;
+    display: flex;
+    justify-content: center;
+}
+.title img{
+    height: 31px;
+    margin: 0 10px;
+}
+
 .chakra{
     display: flex;
     justify-content: space-between;
@@ -22,4 +39,16 @@
     to{
         transform: rotate(360deg);
     }
+}
+
+
+.problem{
+    display: flex;
+    flex-direction: column;
+    margin:5% 0 0 7vw;
+}
+.problem2{
+    display: flex;
+    flex-direction: column;
+    margin:5% 7vw 0 0;
 }
