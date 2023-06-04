@@ -1,0 +1,38 @@
+.astrologerContainer{
+    background: #FFEFE3;
+    margin: 0px 10vw ;
+}
+
+.astrologerList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #FFEFE3;
+   
+}
+
+
+
+.endImg{
+    height: 20vh;
+    background-image: url("https://github.com/abhishekdangi006/image/assets/76874880/8d308fa0-d0f4-486d-bedf-d62b3b07f7b9");
+    margin: 0 10vw;
+    background-size: cover;
+}
+.title{
+    padding: 30px 0;
+    height: 41px;
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 128%;
+    color: #D97122;
+    display: flex;
+    justify-content: center;
+    background: #FFEFE3;
+}
+.title img{
+    height: 31px;
+    margin: 0 10px;
+}

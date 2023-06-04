@@ -6,7 +6,7 @@ const Chakra = (props) => {
     const {problems, problems2} = props;
     console.log(problems2);
     return(
-        <div >
+        <div className={classes.problemContainer}>
             <div className={classes.title}>
                 <img src='https://cdn-icons-png.flaticon.com/128/2902/2902475.png' alt='star'/>
                 <div >Many Problems one Solution</div>

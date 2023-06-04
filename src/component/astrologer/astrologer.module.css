@@ -1,0 +1,184 @@
+.container{
+    margin: 12px 0;
+    width: 346px;
+    height: 408px;
+    left: 0px;
+    top: 0px;
+    background: radial-gradient(69.29% 49.88% at 102.32% 101.97%, rgba(0, 0, 0, 0.7) 12.59%, rgba(0, 0, 0, 0.372048) 45.56%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 7.41429px;
+}
+
+.detailContainer{
+    height: 360px;
+    background-size: cover;
+    border: 1.23571px solid #FFFFFF;
+    border-radius: 7.41429px 7.41429px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailContainer .sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px 10px 20px;
+}
+
+.detailContainer .sec .exp{
+    width: 77px;
+    height: 11px;
+    left: 19px;
+    top: 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* leading-trim: both;
+    text-edge: cap; */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.8);
+}
+.detailContainer .sec .online{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 5px 2px;
+    border-radius: 3px;
+}
+
+.detailContainer .sec .online img{
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.detailContainer .sec .name{
+    width: 207px;
+    height: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.2429px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-shadow: 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.3), 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25);
+}
+.detailContainer .sec .spTitle{
+    width: 87px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #FFDBC0;
+    mix-blend-mode: normal;
+}
+
+.detailContainer .sec .sp{
+    width: 150px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.detailContainer .sec .pTitle{
+    width: 35px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5CE449;
+    mix-blend-mode: normal;
+}
+
+.detailContainer .sec .price{
+    /* position: absolute; */
+    left: 0%;
+    right: 44.32%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #5CE449;
+    mix-blend-mode: normal;
+}
+
+.detailContainer .sec .price span{
+    /* position: absolute; */
+    left: 57.95%;
+    right: 0%;
+    top: 31.68%;
+    bottom: 24.73%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #5CE449;
+    mix-blend-mode: normal;
+}
+
+.buttonContainer{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 0%;
+    right: 0%;
+    top: 88.74%;
+    bottom: 0%;
+    height: 50px;
+    background: #A95210;
+    border-radius: 0 0 7.41429px 7.41429px;
+}
+
+.buttonContainer .chat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14.83px;
+    border-radius: 0px 0px 0px 6px;
+    width: 50%;
+    border: 1.23571px solid #FFFFFF;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.buttonContainer .chat img{
+    height: 20px;
+    width: 20px;
+}
+
+.buttonContainer .call{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 14.83px;
+    border-radius: 0px 0px 6px 0px;
+    width: 50%;
+    border: 1.23571px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+
+.buttonContainer .call img{
+    height: 20px;
+    width: 20px;
+}
