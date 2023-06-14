@@ -27,14 +27,16 @@
 }
 
 .container{
-    height: 500px;
-    width: 500px;
+    width: 33vw;
+    height: auto;
     border-radius: 50%;
     cursor: pointer;
     background-image: url("https://github.com/abhishekdangi006/image/assets/76874880/f0bee314-17a3-491b-b284-7578f4756dea");
     background-size: cover;
 }
 .chakralogo{
+    width: 33vw;
+    height: auto;
     animation: App-logo-spin infinite 20s linear;
 }
 

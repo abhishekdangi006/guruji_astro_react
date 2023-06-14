@@ -4,38 +4,34 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    
 }
 .navigation{
+    display: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 24px;
-    justify-content: space-between;
-    margin: 0 10vw;
+    justify-content: space-around;
 }
 
 .logo{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .logo img{ 
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    margin-top: 25px;
+    margin-top: 13%;
 }
 
 .logo h1{
-    width: 108px;
-    height: 40px;
-    margin-left: 10px;
+    margin-left: 1vw;
     font-family: '?????';
-    font-style: normal;
     font-weight: 400;
-    font-size: 40.0932px;
-    line-height: 40px;
+    font-size: 2.4rem;
     color: #F0F0F0;
 }
 
@@ -43,22 +39,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 24px;
-    position: absolute;
-    width: 466px;
-    height: 30px;
-    left: 484px;
-    top: 31px;
+    justify-content: space-between;
 }
 
 .menu .home{
-    width: 61px;
-    height: 30px;
+    width: 20%;
+    /* height: 30px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.3rem;
     line-height: 30px;
     color: #FD9D54;
     text-decoration: none;
@@ -67,7 +57,6 @@
     width: 177px;
     height: 27px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -75,99 +64,72 @@
     text-decoration: none;
 }
 
-.menu .live{
-    width: 180px;
-    height: 27px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #FCFCFC;
-    text-decoration: none;
-    }
 
 .user img{
     width: 48px;
     height: 48px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .title{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
-    width: 724.18px;
-    height: 245.82px;
-    left: 358px;
-    top: 142px;
+    margin-top: 8vh;
 }
 
 .title h1{
-    width: 724.18px;
-    height: 75px;
     font-family: 'Sansation';
-    font-style: normal;
     font-weight: 700;
-    font-size: 58.4047px;
-    line-height: 128%;
-    text-align: center;
+    font-size: 4.5rem;
     letter-spacing: 0.085em;
     color: #FDFDFD;
 }
 
 .title p{
-    width: 573px;
-    height: 48px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 149.69%;
-    display: flex;
-    align-items: center;
+    width: 40vw;
     text-align: center;
+    font-size: 1.3rem;
     letter-spacing: 0.07em;
     color: #FFFFFF;
+    margin-top: 3vh;
 }
 .title button{
-    width: 217.83px;
-    height: 58.82px;
-    left: 0px;
-    top: 0px;
+    width: 20%;
     background: #D97122;
     border-radius: 43.0686px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    cursor: pointer;
 }
 .title button p{
     font-weight: 900;
-    font-size: 18px;
-    margin: 1% 10% 5% 18%;
+    font-size: 1.3rem;
     color: #FFFFFF;
 }
 
 .services{
-    margin-top: 75vh;
+    padding: 5% 10% 1%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 48px;
     justify-content: space-between;
-    margin-left: 15vw;
-    margin-right: 15vw;
 }
 
 
 .services .container{
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .services .container img{
-    margin-top: 19px;
     margin-right: 8px;
     height: 30px;
     color: #F4F4F4;
@@ -175,13 +137,237 @@
 
 .services .container p{
     width: 135px;
-    height: 39px;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 1rem;
     color: #F4F4F4;
 }
 
+.hamburger{
+    display: none;
+    background: rgba(255, 236, 221, 0.2);
+    height: 44px;
+    width: 100%;
+    position: absolute;
+}
 
+.Mnav{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Micon{
+    background: rgba(255, 236, 221, 0.2);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 44px;
+    justify-content: space-between;
+}
+
+.Mstarting{
+    display: flex;
+    align-items: center;
+}
+
+.more img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.Mlogo{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 4vw;
+}
+
+.Mlogo img{ 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.Mlogo h1{
+    margin-left: 1vw;
+    font-family: '?????';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #F0F0F0;
+}
+.hiddenMmenu{
+    display: none;
+}
+.Mmenu{
+    background: rgba(255, 236, 221, 0.2);
+    width: 40vw;
+    height: 30vh;
+    z-index: 99;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Mmenu .Mhome{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FD9D54;
+    text-decoration: none;
+}
+.Mmenu .Mcall{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FCFCFC;
+    text-decoration: none;
+}
+
+
+.Muser img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media screen and (max-width: 980px) {
+    .logo img{ 
+        width: 40px;
+        height: 40px;
+    }
+    
+    .logo h1{
+        font-size: 1.8rem;
+    }
+    
+    .menu .home{
+        height: 25px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .menu .call{
+        width: 127px;
+        height: 20px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    
+    .user img{
+        width: 40px;
+        height: 40px;
+        margin-top: 14px;
+    }
+    
+    .title h1{
+        font-size: 2.5rem;
+        letter-spacing: 0.065em;
+        margin-top: 2vw;
+    }
+    
+    .title p{
+        font-weight: 350;
+        font-size: 0.8rem;
+        width: 50vw;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin-top: 1vh;
+    }
+    .title button{
+        width: 28%;
+        padding: 0.7% 2% 0;
+        margin-top: 6vh;
+    }
+    .title button p{
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    
+    .services{
+        padding: 5% 7% 1%;
+    }
+    
+    .services .container img{
+        margin-right: 6px;
+        height: 25px;
+    }
+    
+    .services .container p{
+        width: 85px;
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .services{
+        padding: 5% 5% 0.5%;
+    }
+    
+    .services .container img{
+        margin-right: 4px;
+        height: 22px;
+    }
+    
+    .services .container p{
+        width: 65px;
+        font-weight: 300;
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navigation{
+        display: none;
+    }
+    .hamburger{
+        display: contents;
+    }
+    .title h1{
+        font-size: 2rem;
+        letter-spacing: 0.055em;
+        margin-top: 1vw;
+    }
+    
+    .title p{
+        font-size: 0.6rem;
+        margin-top: 0;
+    }
+    .title button{
+        width: 28%;
+        padding: 2%  5px 0;
+        margin-top: 2vh;
+    }
+    .title button p{
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    
+    .services{
+        padding: 5% 7% 1%;
+    }
+
+    .services .container{
+        width: 50px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .services .container img{
+        margin-right: 20px;
+        height: 25px;
+    }
+    
+    .services .container p{
+        font-weight: 400;
+        font-size: 0.6rem;
+    }
+  }
+  
+  

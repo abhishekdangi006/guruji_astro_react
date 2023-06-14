@@ -1,0 +1,20 @@
+.offer {
+  background: #ffefe3;
+  margin: 0px 10vw;
+}
+
+@media screen and (max-width: 980px) {
+    .offer {
+    margin: 0px 5vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    .offer {
+        margin: 0px 3vw;
+        }
+}
+@media screen and (max-width: 500px) {
+    .offer {
+        margin: 0px 0vw;
+        }
+}
