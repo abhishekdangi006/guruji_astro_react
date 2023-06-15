@@ -24,7 +24,7 @@
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    margin-top: 13%;
+    margin-top: 5px;
 }
 
 .logo h1{
@@ -188,7 +188,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-top: 12px;
+    margin-top: 2px;
 }
 
 .Mlogo h1{
@@ -268,6 +268,7 @@
         font-size: 2.5rem;
         letter-spacing: 0.065em;
         margin-top: 2vw;
+        text-align: center;
     }
     
     .title p{

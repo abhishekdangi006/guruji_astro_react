@@ -4,7 +4,6 @@ import Problem2 from './Problem2';
 
 const Chakra = (props) => {
     const {problems, problems2} = props;
-    console.log(problems2);
     return(
         <div className={classes.problemContainer}>
             <div className={classes.title}>

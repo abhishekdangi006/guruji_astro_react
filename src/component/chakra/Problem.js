@@ -1,7 +1,6 @@
 import classes from './problem.module.css'
 const Problem = (props) => {
     const {logo, problem} = props;
-    console.log(problem);
     return(
         <div className={classes.container}>
            <div className={classes.logo1}>

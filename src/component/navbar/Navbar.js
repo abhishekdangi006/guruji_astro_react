@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 const Navbar = () => { 
     const [hamburger, setHumburger] = useState("false");
-    console.log(hamburger);
     return(
         <div className={classes.navbar}>
             <div className={classes.navigation}>

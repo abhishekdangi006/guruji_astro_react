@@ -11,6 +11,11 @@
    
 }
 
+.astrologerListMobile{
+    display: none;
+    background: #FFEFE3;
+}
+
 
 
 .endImg{
@@ -39,12 +44,9 @@
 
 @media screen and (max-width: 500px) {
     .astrologerList{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        background: #FFEFE3;
-        width: auto;
-        height: 10vh;
+        display: none;
+    }
+    .astrologerListMobile{
+        display: contents;
     }
 }

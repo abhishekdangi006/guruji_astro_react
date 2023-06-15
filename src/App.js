@@ -6,6 +6,7 @@ import AstrologerList from './component/astrologer/AstrologerList';
 import { astrologer } from './data/astrologer';
 import { offer } from './data/offer';
 import Offer from './component/offer/Offer';
+import Footer from './component/footer/Footer';
 
 class App extends React.Component{
   constructor(){
@@ -25,6 +26,7 @@ class App extends React.Component{
         <Offer offer={this.state.offfer}/>
         <AstrologerList astrologer={this.state.astrologer}/>
         <Chakra problems={this.state.problems} problems2={this.state.problems2}/>
+        <Footer/>
       </div>
     );
   }

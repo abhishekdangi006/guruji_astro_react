@@ -4,7 +4,6 @@ import classes from "./offer.module.css"
 
 export default function Offer(props) {
     const {offer} = props;
-    console.log(offer);
     var settings = {
       dots: true,
       infinite: true,
@@ -41,8 +40,8 @@ export default function Offer(props) {
     return (
         <div className={classes.offer}>
       <Slider {...settings}>
-        {offer.map((off) => <div>
-          <img className="img-fluid" src={off.img} alt="offer"/>
+        {offer.map((off) => <div key={off.id}>
+          <img className="img-fluid" src={off.img} alt="offer" />
           {console.log(off.img)}
         </div>)}
       </Slider>

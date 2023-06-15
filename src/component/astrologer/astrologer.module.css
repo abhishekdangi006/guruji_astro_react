@@ -1,10 +1,8 @@
 .container{
-    margin: 12px 0;
+    margin: 4% 0;
     width: 346px;
     height: 408px;
-    left: 0px;
-    top: 0px;
-    background: radial-gradient(69.29% 49.88% at 102.32% 101.97%, rgba(0, 0, 0, 0.7) 12.59%, rgba(0, 0, 0, 0.372048) 45.56%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: radial-gradient(69.29% 49.88% at 102.32% 101.97%, rgba(0, 0, 0, 0.7) 12.59%, rgba(0, 0, 0, 0.372048) 45.56%, rgba(0, 0, 0, 0) 100%);
     border-radius: 7.41429px;
 }
 
